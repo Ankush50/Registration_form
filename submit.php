@@ -38,5 +38,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 $show_thanks = !empty($_SESSION['just_submitted']);
 unset($_SESSION['just_submitted']);
 ?>
-header("Location: https://your-netlify-site.netlify.app?ok=1");
+header("Location: https://trip1.netlify.app/");
 exit;
